@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/commandPattern" />
+            <option value="$PROJECT_DIR$/factoryPattern" />
           </set>
         </option>
       </GradleProjectSettings>
