@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/builderPattern" />
             <option value="$PROJECT_DIR$/commandPattern" />
             <option value="$PROJECT_DIR$/factoryPattern" />
+            <option value="$PROJECT_DIR$/singletonPattern" />
           </set>
         </option>
       </GradleProjectSettings>
