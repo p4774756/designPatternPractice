@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c765808-420a-4a84-b895-1709fa9d46e1" name="Changes" comment="Builder pattern practice">
-      <change afterPath="$PROJECT_DIR$/singletonPattern/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singletonPattern/src/main/java/org/example/SingleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singletonPattern/src/main/java/org/example/SingletonPatternDemo.java" afterDir="false" />
+    <list default="true" id="6c765808-420a-4a84-b895-1709fa9d46e1" name="Changes" comment="Singleton pattern">
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/PrototypePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/ShapeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
@@ -76,10 +80,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonPatternDemo">
+  <component name="RunManager" selected="Application.PrototypePatternDemo">
+    <configuration name="PrototypePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PrototypePatternDemo" />
+      <module name="designPatternPractice.PrototypePattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SingletonPatternDemo" />
       <module name="designPatternPractice.singletonPattern.main" />
@@ -105,28 +123,6 @@
         <option name="taskNames">
           <list>
             <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="designPatternPractice:builderPattern [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/builderPattern" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,19 +178,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.PrototypePatternDemo" />
       <item itemvalue="Application.SingletonPatternDemo" />
       <item itemvalue="Gradle.designPatternPractice:builderPattern [clean]" />
-      <item itemvalue="Gradle.designPatternPractice:builderPattern [jar]" />
       <item itemvalue="Gradle.designPatternPractice:builderPattern [javaToolchains]" />
       <item itemvalue="Gradle.designPatternPractice:builderPattern [javadoc]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypePatternDemo" />
         <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Gradle.designPatternPractice:builderPattern [javaToolchains]" />
         <item itemvalue="Gradle.designPatternPractice:builderPattern [javadoc]" />
         <item itemvalue="Gradle.designPatternPractice:builderPattern [clean]" />
-        <item itemvalue="Gradle.designPatternPractice:builderPattern [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696074990118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Singleton pattern">
+      <option name="closed" value="true" />
+      <created>1696098253253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098253253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,6 +243,7 @@
     <MESSAGE value="Factory pattern" />
     <MESSAGE value="Abstract factory pattern practice" />
     <MESSAGE value="Builder pattern practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder pattern practice" />
+    <MESSAGE value="Singleton pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton pattern" />
   </component>
 </project>
