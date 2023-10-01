@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c765808-420a-4a84-b895-1709fa9d46e1" name="Changes" comment="Singleton pattern">
-      <change afterPath="$PROJECT_DIR$/PrototypePattern/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/PrototypePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/ShapeCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Square.java" afterDir="false" />
+    <list default="true" id="6c765808-420a-4a84-b895-1709fa9d46e1" name="Changes" comment="Prototype pattern&#10;&#10;Can not really understand this pattern meaning...">
+      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/AbstractLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/ChainPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototypePattern/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/PrototypePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/PrototypePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/ShapeCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +64,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;p4774756&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ade1c565-9981-405b-ac9d-0057774823ac" />
+        <option name="url" value="https://github.com/p4774756/designPatternPractice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="KotlinScriptingSettings">
+    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinBuildScript">
+      <order>2147483647</order>
+      <autoReloadConfigurations>true</autoReloadConfigurations>
+    </scriptDefinition>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -67,24 +93,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "azul-17",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4816092"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;azul-17&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4816092&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrototypePatternDemo">
+  <component name="RunManager" selected="Gradle.designPatternPractice [clean]">
+    <configuration name="ChainPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ChainPatternDemo" />
+      <module name="designPatternPractice.chainOfResponsibilityPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrototypePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.PrototypePatternDemo" />
       <module name="designPatternPractice.PrototypePattern.main" />
@@ -111,10 +151,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="designPatternPractice:builderPattern [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="designPatternPractice [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/builderPattern" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -155,42 +195,20 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="designPatternPractice:builderPattern [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/builderPattern" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="javadoc" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Application.ChainPatternDemo" />
       <item itemvalue="Application.PrototypePatternDemo" />
       <item itemvalue="Application.SingletonPatternDemo" />
-      <item itemvalue="Gradle.designPatternPractice:builderPattern [clean]" />
+      <item itemvalue="Gradle.designPatternPractice [clean]" />
       <item itemvalue="Gradle.designPatternPractice:builderPattern [javaToolchains]" />
-      <item itemvalue="Gradle.designPatternPractice:builderPattern [javadoc]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.designPatternPractice [clean]" />
+        <item itemvalue="Application.ChainPatternDemo" />
         <item itemvalue="Application.PrototypePatternDemo" />
         <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Gradle.designPatternPractice:builderPattern [javaToolchains]" />
-        <item itemvalue="Gradle.designPatternPractice:builderPattern [javadoc]" />
-        <item itemvalue="Gradle.designPatternPractice:builderPattern [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696098253253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Prototype pattern&#10;&#10;Can not really understand this pattern meaning...">
+      <option name="closed" value="true" />
+      <created>1696100561345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696100561345</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,6 +270,22 @@
     <MESSAGE value="Abstract factory pattern practice" />
     <MESSAGE value="Builder pattern practice" />
     <MESSAGE value="Singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton pattern" />
+    <MESSAGE value="Prototype pattern&#10;&#10;Can not really understand this pattern meaning..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype pattern&#10;&#10;Can not really understand this pattern meaning..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/ChainPatternDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

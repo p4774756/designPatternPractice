@@ -9,11 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/PrototypePattern" />
             <option value="$PROJECT_DIR$/abstractFactoryPattern" />
             <option value="$PROJECT_DIR$/builderPattern" />
+            <option value="$PROJECT_DIR$/chainOfResponsibilityPattern" />
             <option value="$PROJECT_DIR$/commandPattern" />
             <option value="$PROJECT_DIR$/factoryPattern" />
+            <option value="$PROJECT_DIR$/prototypePattern" />
             <option value="$PROJECT_DIR$/singletonPattern" />
           </set>
         </option>
