@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c765808-420a-4a84-b895-1709fa9d46e1" name="Changes" comment="Prototype pattern&#10;&#10;Can not really understand this pattern meaning...">
-      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/AbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/ChainPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/ErrorLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/src/main/java/org/example/FileLogger.java" afterDir="false" />
+    <list default="true" id="6c765808-420a-4a84-b895-1709fa9d46e1" name="Changes" comment="Chain Pattern">
       <change afterPath="$PROJECT_DIR$/prototypePattern/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/chainOfResponsibilityPattern/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/PrototypePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/PrototypePatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/ShapeCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrototypePattern/src/main/java/org/example/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototypePattern/src/main/java/org/example/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +48,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -261,8 +247,51 @@
       <option name="project" value="LOCAL" />
       <updated>1696100561345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Prototype pattern rename">
+      <option name="closed" value="true" />
+      <created>1696150663538</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696150663538</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Chain Pattern">
+      <option name="closed" value="true" />
+      <created>1696150704086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696150704086</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Chain Pattern">
+      <option name="closed" value="true" />
+      <created>1696150721544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696150721545</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Chain Pattern">
+      <option name="closed" value="true" />
+      <created>1696150845075</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696150845075</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hihi" />
@@ -271,7 +300,9 @@
     <MESSAGE value="Builder pattern practice" />
     <MESSAGE value="Singleton pattern" />
     <MESSAGE value="Prototype pattern&#10;&#10;Can not really understand this pattern meaning..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype pattern&#10;&#10;Can not really understand this pattern meaning..." />
+    <MESSAGE value="Prototype pattern rename" />
+    <MESSAGE value="Chain Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chain Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
