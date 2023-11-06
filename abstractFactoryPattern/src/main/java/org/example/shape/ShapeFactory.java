@@ -16,11 +16,22 @@ public class ShapeFactory extends AbstractFactory {
             return null;
         }
 
-        return switch (type) {
-            case "Circle" -> new Circle();
-            case "Rectangle" -> new Rectangle();
-            case "Square" -> new Square();
-            default -> null;
-        };
+        Shape shape;
+
+        switch (type) {
+            case "Circle" :
+                shape =  new Circle();
+                break;
+            case "Rectangle" :
+                shape = new Rectangle();
+                break;
+            case "Square" :
+                shape =  new Square();
+                break;
+            default :
+                shape = null;
+        }
+
+        return shape;
     }
 }

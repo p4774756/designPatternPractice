@@ -10,12 +10,22 @@ public class ColorFactory extends AbstractFactory {
         if (color == null) {
             return null;
         }
-        return switch (color) {
-            case "Red" -> new Red();
-            case "Green" -> new Green();
-            case "Blue" -> new Blue();
-            default -> null;
-        };
+        Color color1;
+        switch (color) {
+            case "Red" :
+                color1 = new Red();
+                break;
+            case "Green" :
+                color1 = new Green();
+                break;
+            case "Blue" :
+                color1 = new Blue();
+                break;
+            default :
+                color1 = null;
+        }
+
+        return color1;
     }
 
     @Override
